@@ -21,7 +21,7 @@ d'accéder à des fichiers extérieurs via un réseau.</p>
 <img src="/img/edit2.PNG">
 <p>-puis ajouter => /home/(nom d'u)/(nom du dossier ou fichier) l'adresse IP du server</p>
 
-<h3>Cote client pur avoir les dossiers partagés ou autre</h3>
+<h3>Cote client pour avoir les dossiers partagés ou autre</h3>
 <p>Creer le dossier pour y mettre les dossiers telecharger</p>
 <img src="/img/edit3.PNG">
 
