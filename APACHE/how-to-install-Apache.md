@@ -4,15 +4,15 @@ de la fondation Apache. Il est le serveur le plus utilisé et le plus populaire 
 Web.</p>
 
 <h3>Installation</h3>
-<img src="installationapache.PNG">
+<img src="/img/installationapache.PNG">
 
 <h3>Configuration</h3>
 <p>aller dans le repertoire suivant</p>
-<img src="apacheconfig1.PNG">
+<img src="/img/apacheconfig1.PNG">
 <p>modifier le fichier suivant</p>
-<img src="apacheconfig2.PNG">
+<img src="/img/apacheconfig2.PNG">
 <p>puis modifier quelque ligne dedans</p>
-<img src="apacheconfig3.PNG">
+<img src="/img/apacheconfig3.PNG">
 
 <h3>Test</h3>
 <ul>
@@ -21,5 +21,5 @@ Web.</p>
 </ul>
 
 <p>Si votre navigateur affiche quelque chose ressemblant à ceci</p>
-<img src="apacheconfig4.PNG">
+<img src="/img/apacheconfig4.PNG">
 <p> Bravo ça marche</p>
