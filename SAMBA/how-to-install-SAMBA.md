@@ -4,7 +4,7 @@ de Microsoft Windows dans les ordinateurs tournant sous le sustéme d'exploitati
 dérivés de maniére à partager des imprimantes et des fichiers dans un reseau informatique.</p>
 
 <h3>Installation</h3>
-<img src="installationsamba.PNG">
+<img src="/img/installationsamba.PNG">
 
 <h3>Etape d'utilisation</h3>
 <ul>
@@ -17,10 +17,10 @@ dérivés de maniére à partager des imprimantes et des fichiers dans un reseau
 <p>Modifions maintenant la configuration</p>
 
 <h3>configuration1</h3>
-<img src="configurationsamba.PNG">
+<img src="/img/configurationsamba.PNG">
 
 <h3>configuration2</h3>
-<img src="SAMBAconfig.PNG">
+<img src="/img/SAMBAconfig.PNG">
 
 <h3>lancer le serveur</h3>
 <p>taper la commande suivante => etc/init.d/samba restart</p>
