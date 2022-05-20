@@ -1,24 +1,26 @@
 <h3>Definition</h3>
-<p>Samba est un logiciel d'interoperabilite qui implemente le protocole proprietaire SMB/CIFS de Microsoft Windows dans les ordinateurs tournant sous le systeme d'exploitation Unix de maniere à partager des imprimantes et des fichiers dans un reseau informatique.</p>
+<p>Samba est un logiciel d'interopérabilité qui implémente le protocole propriétaire SMB/CIFS
+de Microsoft Windows dans les ordinateurs tournant sous le sustéme d'exploitation Unix et ses
+dérivés de maniére à partager des imprimantes et des fichiers dans un reseau informatique.</p>
 
-<h3>installation de SAMBA</h3>
-<img src="/img/installationsamba.PNG">
+<h3>Installation</h3>
+<img src="installationsamba.PNG">
 
-<h3>configuration SAMBA</h3>
-<img src="/img/configurationsamba.PNG>
-
-<h3>Etape de configuration</h3>
-<p>Tout ce qui suit se fait en mode Super Utilisateur</p>
-
-<h3>les etapes</h3>
+<h3>Etape d'utilisation</h3>
 <ul>
-    <li>creer un dossier dans le home => ecrire mkdir nom_du_dossier</li>
-    <li>changer le droit d'utilistation du fichier => chmod 777 nom_du_dossier</li>
-    <li>creer un nouvelle utilisateur => useradd nom_d'utilisateur</li>
-    <li>modifions la config du server => nano /etc/samba/smb.conf</li>
+    <li>ceer un dossier => mkdir dossier</li>
+    <li>changer le droit du dossier => chmod 777 dossier {pour tout acces au dossier}</li>
+    <li>ajouter un utilisateur => adduser nom</li>
+    <li>taper maintenant => smbpasswd -a exemple {pour les problemes de si non compatibilite}
 </ul>
 
-<p>exemple</p>
-<img src="/img/SAMBAconfig.PNG">
+<p>Modifions maintenant la configuration</p>
 
-<p>Puis configurer votre machine locale => entrer dans le panneau de configuration puis modifier votre connexion network, et entrer en ethernet et taper l'adress du server</p>
+<h3>configuration1</h3>
+<img src="configurationsamba.PNG">
+
+<h3>configuration2</h3>
+<img src="SAMBAconfig.PNG">
+
+<h3>lancer le serveur</h3>
+<p>taper la commande suivante => etc/init.d/samba restart</p>
